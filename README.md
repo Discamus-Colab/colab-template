@@ -7,18 +7,18 @@ App Router, Turbopack y Cache Components.
 ## Arranque rápido
 
 ```bash
-npm install
-npm run dev      # http://localhost:3000
+pnpm install
+pnpm dev      # http://localhost:3000
 ```
 
 ## Scripts
 
 | Comando       | Para qué                              |
 |---------------|---------------------------------------|
-| `npm run dev`   | Desarrollo con Turbopack              |
-| `npm run build` | Build de producción (debe estar verde)|
-| `npm run start` | Servir el build                       |
-| `npm run lint`  | ESLint (debe estar verde)             |
+| `pnpm dev`   | Desarrollo con Turbopack              |
+| `pnpm build` | Build de producción (debe estar verde)|
+| `pnpm start` | Servir el build                       |
+| `pnpm lint`  | ESLint (debe estar verde)             |
 
 ## Estructura (screaming architecture)
 
