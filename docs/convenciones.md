@@ -35,8 +35,8 @@
 ## Calidad mínima para abrir PR
 
 ```bash
-npm run lint   # ESLint en verde
-npm run build  # build en verde (esto es sagrado)
+pnpm lint   # ESLint en verde
+pnpm build  # build en verde (esto es sagrado)
 ```
 
 ## Prohibido

@@ -12,15 +12,15 @@ Este repo es **código abierto** y `main` está protegido:
 # 1. Clona y entra
 git clone https://github.com/Discamus-Colab/colab-template.git
 cd colab-template
-npm install
+pnpm install
 
 # 2. Crea tu rama (kebab-case, con tu nombre o el ticket: sc9sergio/COLAB-4-votacion)
 git checkout -b <tu-usuario>/<descripcion-corta>
 
 # 3. Chambea y verifica
-npm run dev     # desarrolla
-npm run lint    # en verde
-npm run build   # en verde (sagrado)
+pnpm dev     # desarrolla
+pnpm lint    # en verde
+pnpm build   # en verde (sagrado)
 
 # 4. Sube tu rama y abre el PR contra main
 git push -u origin <tu-rama>

@@ -1,0 +1,15 @@
+# Permitir que unrs-resolver (resolver de eslint) corra su script de instalación.
+onlyBuiltDependencies:
+  - unrs-resolver
+
+# pnpm bloquea por defecto paquetes publicados hace menos de 24 h (defensa contra
+# ataques de supply chain). Next.js 16.4.1 se publicó el 2026-10-14 y es la versión
+# que fija el template de la clase, así que eximimos solo los paquetes de Vercel.
+# El resto del árbol sigue protegido.
+minimumReleaseAgeExclude:
+  - next
+  - "@next/*"
+  - eslint-config-next
+
+allowBuilds:
+  unrs-resolver: true

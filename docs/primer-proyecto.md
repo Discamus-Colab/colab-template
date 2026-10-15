@@ -11,8 +11,8 @@ cd /home/sergio_castro/Proyectos
 cp -r colab-template votacion   # o foro, periodico…
 cd votacion
 rm -rf .git && git init -b main  # historia limpia para el proyecto nuevo
-npm install
-npm run dev
+pnpm install
+pnpm dev
 ```
 
 ## Opción B: repo nuevo desde GitHub
