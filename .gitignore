@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# generado por Next.js al arrancar (instrucciones para agentes de IA)
+AGENTS.md
